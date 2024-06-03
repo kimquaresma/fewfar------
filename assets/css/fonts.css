@@ -1,0 +1,22 @@
+@font-face{
+  font-family: 'PPEiko';
+  src: url('../fonts/PPEiko-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+@font-face{
+  font-family: 'PPEiko';
+  src: url('../fonts/PPEiko-RegularItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face{
+  font-family: 'PPNeueMontreal' format('woff2');
+  src: url('../fonts/PPNeueMontreal-Regular.woff2');
+  font-weight: 400;
+}
+@font-face{
+  font-family: 'PPNeueMontreal-Bold';
+  src: url('../fonts/PPNeueMontreal-Bold.woff2') format('woff2');
+  font-weight: 700px;
+}

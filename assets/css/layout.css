@@ -1,0 +1,118 @@
+@import './fonts.css';
+@import './reset.css';
+@import './common.css';
+
+.header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  transition: .3s;
+  opacity: 1;
+  z-index: 100;
+}
+
+/* .header .logo .last{fill: #f00;} */
+
+.header-part{
+  transition: .3s;
+  opacity: 1;
+}
+.header-part.hide #Group>*:not(.last){opacity: 0;}
+.header.white .last{fill: #fff;}
+
+.header-inner{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 110px;
+  height: 140px;
+}
+.header-inner h1{
+  display: flex;
+  align-items: center;
+}
+
+.header-inner .sub-title span{
+  font-style: italic;
+}
+.header-inner .util-area{
+  display: flex;
+  align-items: center;
+
+}
+.header-inner .util-area ul{
+  display: flex;
+  gap: 45px;
+  margin-right: 45px;
+}
+.header-inner .util-area .util-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  width: 68px;
+  height: 38px;
+  border-radius: 9999px;
+  transition: .3s .3s;
+}
+.header.white .util-area .util-btn{
+  background: #fff;
+}
+.header.white .util-area .util-btn svg{
+  color: #000;
+}
+
+.header-inner .util-area .util-btn svg{
+  display: flex;
+  width: 24px;
+  height: 24px;
+  color: #fff;
+}
+
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  padding: 90px 0;
+}
+.footer .inner{
+  padding-top: 0;
+  padding-bottom: 0; 
+}
+.footer .left{}
+.footer .left h3{
+  font-size: 20px;
+}
+.footer .left p{
+  font-size: 16px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  color: rgb(167 167 167);
+}
+.footer .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer .right .image-content{
+  display: flex;
+  justify-content: end;
+}
+.footer .right img{
+  width: 26px;
+}
+.footer .policy-list{
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+.footer .sns-list{
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+}
